@@ -9,8 +9,8 @@ module.exports = {
 
     async function imageShortcode(src, alt, sizes) {
       let metadata = await Image(src, {
-        widths: [300, 600],
-        formats: ["webp", "jpg"],
+        widths: [150, 300, 600, 1200, 2400],
+        formats: ["avif", "webp", "jpg"],
         urlPath: "assets/images",
         outputDir: "./public/assets/images"
       });
