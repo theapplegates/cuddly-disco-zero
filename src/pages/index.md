@@ -18,5 +18,4 @@ title: Up to zero! 🪐
 
   {% image "https://source.unsplash.com/1024x768/?beagle", "Random image of a beagle", "100%" %}
 
-  {% image "/assets/images/egg-meal.jpg", "A nice picture of an egg for breakfast", "100%"  %}
 </header>
